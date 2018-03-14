@@ -4,7 +4,7 @@
 # Pomodoro Timer and Logger
 
 t=$1
-TIMER=$((t*6))
+TIMER=$((t*60))
 
 sleep $TIMER 
 frmdata=$(yad --form \
