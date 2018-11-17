@@ -1,7 +1,11 @@
-## Pomodoro timer and logger
+# Pomodoro timer and logger
 
-Simple shell script that sets a timer for a user-specified amount of minutes (defaults to 25 minutes) and at the end of that period allows user to log which project and what tasks where acomplished during that period to a csv log file.
+Simple shell script that sets a timer for a user-specified amount of minutes and at the end of that period allows user to log which project and what tasks where acomplished during that period to a csv log file.
 
- 
+## Additional features to implement
+* default 25 mins
+* pop up over everything once timer is up 
+* option to pause timer
+
 
 
