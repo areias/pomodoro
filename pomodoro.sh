@@ -4,10 +4,11 @@
 # Pomodoro Timer and Logger
 
 # user argument for t
-t=$1
+t=${1:-25}
 TIMER=$((t*60))
 
 # set timer
+echo "setting pomodoro timer for $t minutes"
 sleep $TIMER 
 
 # user input 
