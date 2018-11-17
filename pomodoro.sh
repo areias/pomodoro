@@ -11,6 +11,9 @@ TIMER=$((t*60))
 echo "setting pomodoro timer for $t minutes"
 sleep $TIMER 
 
+# aler timer ended
+xmessage -center "Time's up!"
+
 # user input 
 read -p 'project: ' proj
 read -p 'description: ' task
