@@ -6,6 +6,8 @@ Simple shell script that sets a timer for a user-specified amount of minutes and
 * default 25 mins
 * pop up over everything once timer is up 
 * option to pause timer
+* timer count down to remaining minutes
+* option to quit mid-timer and log elapsed time with tasks
 
 
 
