@@ -8,6 +8,6 @@ Simple shell script that sets a timer for a user-specified amount of minutes and
 * option to pause timer
 * timer count down to remaining minutes
 * option to quit mid-timer and log elapsed time with tasks
-
+* report option that generates total time worked per project 
 
 
