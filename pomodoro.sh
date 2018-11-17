@@ -1,26 +1,18 @@
 #!/bin/bash
 
-# Author: Ana Areias <ama.areias at gmail.com>
+# Author: Ana Areias <ana.areias at gmail.com>
 # Pomodoro Timer and Logger
 
+# user argument for t
 t=$1
 TIMER=$((t*60))
 
+# set timer
 sleep $TIMER 
-frmdata=$(yad --form \
-	--image="${BASH_SOURCE%/*}/pomodoro_small.png" \
-	--title="Pomodoro logger" \
-	--text="You just did $t mins of work!" \
-   	--field="Project":CBE \
-	 "Bakeoff!Tanzania!Wages" \
-   	--field="Task"\
-	--on-top)
 
-proj=$(echo $frmdata | awk 'BEGIN {FS="|"} { print $1 }') 
-task=$(echo $frmdata | awk 'BEGIN {FS="|"} { print $2 }')
+# user input 
+read -p 'project: ' proj
+read -p 'description: ' task
 
-echo "$t, $proj, $task, $(date)" >> "${BASH_SOURCE%/*}/log.txt"
-
-
-
-
+# save to log file 
+echo "$t, $proj, $task, $(date)" >> "${BASH_SOURCE%/*}/log2.txt"
