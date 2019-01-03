@@ -279,3 +279,50 @@
 25, Liberia, trying running gbm code inside docker locally, and then server!, Wed Dec 26 17:10:13 GMT 2018
 25, liberia, change install script standalone, Wed Dec 26 17:44:20 GMT 2018
 25, Liberia, docker code, Wed Dec 26 18:47:56 GMT 2018
+25, Hours, commited log2.txt to bitbucket, should sched cronjob to do, Thu Dec 27 10:03:50 GMT 2018
+25, Liberia, transfering files to li's server, Thu Dec 27 10:30:03 GMT 2018
+25, Liberia, sending files to lis server (also cooked), Thu Dec 27 10:55:21 GMT 2018
+25, Liberia, code didnt run on li's server, [D[D[D[D[D, Thu Dec 27 11:20:51 GMT 2018
+25, Liberia, takes forever to install packages in image, Thu Dec 27 11:51:25 GMT 2018
+25, Liberia, "installed unix libraries, must save to docker file, commited image, then saved image into tar file, gzipped and now sending to server", Thu Dec 27 13:34:25 GMT 2018
+25, w0rkSUCKSg0surfing, Liberia, Thu Dec 27 13:59:41 GMT 2018
+25, Liberia, this is insane, now gbm doesnt run need devtools dev version, Thu Dec 27 14:25:16 GMT 2018
+25, Liberia, "finally gbm runs on li's server, but needed to install gbm from github using devtools to correct error about distrubution name missing", Thu Dec 27 14:51:35 GMT 2018
+25, Liberia, server, Thu Dec 27 15:16:54 GMT 2018
+25, Kristen, impute nps 12, Thu Dec 27 16:54:58 GMT 2018
+25, Kristen, ok have nps 12 imputation results, now what??, Thu Dec 27 17:20:16 GMT 2018
+35, Liberia, "awesome, chose q=0.1 since maximizes f2, now calculating permutation variable imporance for gbm rural, then comparing to Linden's results", Fri Dec 28 09:18:19 GMT 2018
+31, Liberia, var imp code running on server, Fri Dec 28 09:50:26 GMT 2018
+25, Bakeoff, merging african datasets! collapsing I and L do head, Fri Dec 28 10:15:50 GMT 2018
+35, Bakeoff, almost there with the merging, Fri Dec 28 10:51:37 GMT 2018
+25, BAkeoff, almoooost, Fri Dec 28 11:17:15 GMT 2018
+25, Bakeoff, still taking care of exceptions, Fri Dec 28 11:42:41 GMT 2018
+25, Bakeoff, ok now gotta describe data, Fri Dec 28 12:13:57 GMT 2018
+25, Liberia, calculatinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn, Fri Dec 28 13:41:18 GMT 2018
+25, Bakeoff, "permutation effect in terms of rmse returns both positive and negative values,trying to decipher this", Fri Dec 28 14:27:36 GMT 2018
+25, Liberia, actually var imp for liberia, Fri Dec 28 14:52:57 GMT 2018
+25, Liberia, not sure what to make of these permutation results,compareLinden, Fri Dec 28 15:24:52 GMT 2018
+25, Liberia, "Compare my result's to Linden', Sat Dec 29 09:02:08 GMT 2018
+25, Liberia, var imp definition and validate, Sun Dec 30 09:41:57 GMT 2018
+25, Liberia, "first show that own  rolled code picks similar vars as default rf var imp which is what Linden used, then use own code to do var i opt quantile", Sun Dec 30 10:08:03 GMT 2018
+25, LIberia, comparing own code to random forest results, Sun Dec 30 10:48:14 GMT 2018
+25, Liberia, making 10 iterations of own var imp, Sun Dec 30 11:14:06 GMT 2018
+25, Liberia, "moment of truth, compare var imp results to gbm at selected quantile", Sun Dec 30 11:43:42 GMT 2018
+25, Liberia, send to server for 100 iterations, Sun Dec 30 12:54:09 GMT 2018
+25, Liberia, moving to server, Sun Dec 30 13:20:52 GMT 2018
+25, Liberia, gbmsubsets, Sun Dec 30 14:43:11 GMT 2018
+25, LIberia, subsets on server, Sun Dec 30 15:55:05 GMT 2018
+25, Liberia, subsets on server, Mon Dec 31 11:33:17 GMT 2018
+25, Liberia, subsets show that classification measures dont change much, Mon Dec 31 11:59:20 GMT 2018
+25, Liberia, so slooow, Mon Dec 31 12:28:11 GMT 2018
+22, Liberia, next up choose quantile, var imp and subsets for urban, Mon Dec 31 12:50:53 GMT 2018
+15, , , Tue Jan  1 13:33:05 GMT 2019
+25, Liberia, choosing urban quantile in server, Wed Jan  2 09:21:33 GMT 2019
+25, Liberia, best f2 quantile urban is 0.07, now on to var imp, Wed Jan  2 09:47:26 GMT 2019
+25, Liberia, "seeing how urban performance degrades when we limit the number of variables available", Wed Jan  2 10:14:53 GMT 2019
+25, Liberia, "urban seems that once you go below 25 then you start affect model perofmrnace but from precision, not sensitivity", Wed Jan  2 10:40:33 GMT 2019
+10, LIberia, ok have good graphs to think about var subsets and model perf, Wed Jan  2 10:55:52 GMT 2019
+25, Tanzania, "r coversion LFS sav file to dta while keeping labels, Wed Jan  2 11:37:01 GMT 2019
+25, Tanzania, LFS work vars argh, Wed Jan  2 15:01:31 GMT 2019
+25, Tanzania, ok cannot do this again, just use old code do not change, Wed Jan  2 15:26:55 GMT 2019
+25, Tanzania, cannot do this from beginning, Wed Jan  2 16:46:21 GMT 2019
