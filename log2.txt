@@ -326,3 +326,36 @@
 25, Tanzania, LFS work vars argh, Wed Jan  2 15:01:31 GMT 2019
 25, Tanzania, ok cannot do this again, just use old code do not change, Wed Jan  2 15:26:55 GMT 2019
 25, Tanzania, cannot do this from beginning, Wed Jan  2 16:46:21 GMT 2019
+15, Tanzania, "documenting what we already have, NO MORE CODING", Thu Jan  3 05:28:28 GMT 2019
+25, Tanznia, if I could commit csv files that would be great too, for commiting results as well, Thu Jan  3 05:54:19 GMT 2019
+25, Tanzania, surprisingly ok, Thu Jan  3 06:19:37 GMT 2019
+25, Tanzania, "exploring and committing what we have, what needs to be done, what do results show so far vis a vis 1. which survey is best? 2. which method for variable selection is best", Thu Jan  3 06:45:38 GMT 2019
+25, Tanzania, "there is so much done, and maybe just updating poverty lines will be enough to finish", Thu Jan  3 07:11:26 GMT 2019
+45, Tanzania, commit lfs subset then maybe swich poverty lines, Thu Jan  3 08:06:47 GMT 2019
+15, , , Thu Jan  3 08:58:41 GMT 2019
+25, Tanzania, "committing lfs subset, start by updating poverty lines", Thu Jan  3 09:27:39 GMT 2019
+25, Tanzania, updating poverty line in already imputed results, Thu Jan  3 09:55:15 GMT 2019
+25, Tanzania, "updated poverty line for insample and outsample results", Thu Jan  3 10:21:59 GMT 2019
+25, Tanzania, "ok have updated insample results for NPS all vars and each subset", Thu Jan  3 10:47:41 GMT 2019
+25, Tanzania, "trying to do outsample subset imputations with minimum code", Thu Jan  3 11:17:27 GMT 2019
+17, Tanzania, hbs subset nps 08, Thu Jan  3 11:43:32 GMT 2019
+25, Tanzania, hbs subset results, Thu Jan  3 13:06:40 GMT 2019
+25, [BTanzania, "next steps, impute into hbs, hbs subset 12 and resurrect variable selection code", Thu Jan  3 13:48:53 GMT 2019
+25, Liberia, writing up results, Thu Jan  3 14:44:02 GMT 2019
+25, Liberia, writing up results, turns out adding F2 graphs changes things!, Thu Jan  3 18:14:23 GMT 2019
+25, Liberia, making sweet ranking graph, Fri Jan  4 05:36:39 GMT 2019
+25, Liberia, sweet graph, except y axis ticks!, Fri Jan  4 06:14:26 GMT 2019
+25, Liberia, worlds best graph for var imporannce rankings urban/rural, Fri Jan  4 06:42:13 GMT 2019
+25, Liberia, saving all graphs necessary for final report, Fri Jan  4 07:37:43 GMT 2019
+25, Liberia, saving grpahs for note, Fri Jan  4 08:05:18 GMT 2019
+25, Liberia, add graphs to report, write up conclusions, suggestions, Fri Jan  4 17:49:43 GMT 2019
+25, Liberia, final report!, Fri Jan  4 18:15:35 GMT 2019
+25, Liberia, ok yesterday kept forgetting timer you def worked from 5am to 8 then from 5pm to 8, Sat Jan  5 08:55:33 GMT 2019
+45, Liberia, "rerunning model choise with more quantiles for f2", Sat Jan  5 09:47:55 GMT 2019
+25, Liberia, "these past few days count as full youve been shit at keeping track", Sun Jan  6 11:20:41 GMT 2019
+45, Liberia, done! http://bl.ocks.org/areias/raw/11ae8be39a50896a9f04ff983bcf07bd/, Sun Jan  6 12:06:20 GMT 2019
+45, hbs 2012 outsample result, Tanzania, Sun Jan  6 16:37:19 GMT 2019
+45, Tanzania, doing hbs alternate survey imputation, Sun Jan  6 17:22:47 GMT 2019
+45, Tanznia, "going over impute hbs code and adding checks to make sure imputing right data", Sun Jan  6 19:15:28 GMT 2019
+45, Tanzania, again being shite at logging hours, Sun Jan  6 20:05:48 GMT 2019
+45, Kristen, just sucked at counting hours, Mon Jan  7 09:15:09 GMT 2019
