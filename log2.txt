@@ -359,3 +359,33 @@
 45, Tanznia, "going over impute hbs code and adding checks to make sure imputing right data", Sun Jan  6 19:15:28 GMT 2019
 45, Tanzania, again being shite at logging hours, Sun Jan  6 20:05:48 GMT 2019
 45, Kristen, just sucked at counting hours, Mon Jan  7 09:15:09 GMT 2019
+25, KRisten, dhs subsets, Mon Jan  7 10:20:25 GMT 2019
+25, Tanzania, dhs subset log for insample, outsample and alternate, Mon Jan  7 10:46:01 GMT 2019
+25, Kristen, now doing lfs subsets, Mon Jan  7 11:11:22 GMT 2019
+25, Kirsten, lfs subset, Mon Jan  7 11:36:38 GMT 2019
+1, Kirstem, add lfsvarsto2012, Mon Jan  7 11:38:48 GMT 2019
+45, Tanzania, shit again withthe fucking timer, started at 3pm, Mon Jan  7 16:32:25 GMT 2019
+45, [3~Tanzania, "getting bogged down in results, leave lfs subset var def alone, do lfs alternate imputation", Mon Jan  7 19:02:10 GMT 2019
+25, Tanzania, ascs insample etc, Mon Jan  7 19:44:52 GMT 2019
+45, Tanzania, from 3-8:30, Mon Jan  7 21:22:01 GMT 2019
+45, Tanzania, r convert spss ascs, Tue Jan  8 07:16:12 GMT 2019
+45, Tanzania, again didnt notice timer, continous working, Tue Jan  8 08:08:31 GMT 2019
+45, Tanzania, "so turns out R conversion of spss into dta may have messed up the labels so now vars like educ dont match up, must confirm defnition", Tue Jan  8 08:54:17 GMT 2019
+45, Tanzania, just going back and cleaning final groups of vars, Tue Jan  8 10:17:39 GMT 2019
+45, Tanzania, maybe being precious again argh, Tue Jan  8 11:03:00 GMT 2019
+25, Tanzania, ok from 5 pm onwards, Tue Jan  8 19:03:23 GMT 2019
+45, Tanzania, seriously just almost, Tue Jan  8 20:34:52 GMT 2019
+45, Tanania, 9"20 pm, Tue Jan  8 21:22:26 GMT 2019
+45, Tanznia, recovering part 2 code, rf, joint, etc, Wed Jan  9 09:30:19 GMT 2019
+45, Tanzania, rf, Wed Jan  9 10:16:05 GMT 2019
+45, Tanzania, rf recovery, Wed Jan  9 19:05:40 GMT 2019
+45, Tanzania, made rf out sample,lets run insample code, Wed Jan  9 19:59:04 GMT 2019
+15, TanzANIA, ran rf code with 5 cv, Thu Jan 10 02:35:33 GMT 2019
+25, Tanzania, working on stepwise code, also trying to rest arms, Thu Jan 10 13:31:20 GMT 2019
+45, Tanzania, arghhh computer crashed dumbass, Thu Jan 10 14:16:40 GMT 2019
+45, Tanzania, so close, no doing stepwise out, Thu Jan 10 15:01:58 GMT 2019
+45, Tanzania, now working on joint signif, adding a couple groups missing, Thu Jan 10 15:58:55 GMT 2019
+45, Tanzania, added groups missing to joint signit, almost there!, Thu Jan 10 16:44:16 GMT 2019
+45, Tanzania, almooooost now doing joint out, Thu Jan 10 17:29:35 GMT 2019
+45, Tanzania, joint out, Thu Jan 10 18:15:43 GMT 2019
+45, Tanzania, finally sent results!, Thu Jan 10 21:57:07 GMT 2019
