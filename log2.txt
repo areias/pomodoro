@@ -389,3 +389,59 @@
 45, Tanzania, almooooost now doing joint out, Thu Jan 10 17:29:35 GMT 2019
 45, Tanzania, joint out, Thu Jan 10 18:15:43 GMT 2019
 45, Tanzania, finally sent results!, Thu Jan 10 21:57:07 GMT 2019
+45, Bakeoff, summary stats and missingness info! send results today!, Fri Jan 11 14:13:47 GMT 2019
+45, Bakeoff, modifying descriptive for african data, Fri Jan 11 15:00:16 GMT 2019
+25, Tanzania, not making much headway,because before descripte.R is definePredictors.R, Fri Jan 11 15:27:28 GMT 2019
+25, Bakeoff, aghh african data, Sat Jan 12 11:18:32 GMT 2019
+17, bakeoff, ok survesy by num obs, Sat Jan 12 11:36:16 GMT 2019
+25, Bakeoff, now counting variables, Sat Jan 12 13:15:10 GMT 2019
+25, Bakeoff, arghaofhiwofhwiofew, Sat Jan 12 14:13:04 GMT 2019
+25, Bakeoff, maybe getting somewhere, Sat Jan 12 14:38:15 GMT 2019
+25, Bakeoff, stupid timer, Sat Jan 12 15:19:40 GMT 2019
+25, Bakeoff, saving variable labels, Sun Jan 13 13:05:58 GMT 2019
+25, Bakeoff, generating means for graph, Sun Jan 13 13:35:09 GMT 2019
+25, Bakeoff, means for graph, Sun Jan 13 14:04:43 GMT 2019
+25, Bakeoff, means for graph, Sun Jan 13 14:36:55 GMT 2019
+25, Bakeoff, trying to make graoh, Sun Jan 13 15:02:09 GMT 2019
+25, bakeoff, , Sun Jan 13 23:33:55 GMT 2019
+25, Bakeoff, somehow only 38 datasets got summarized? weird, Mon Jan 14 09:46:28 GMT 2019
+45, Bakeoff, sooooooo angsty today, Mon Jan 14 10:35:44 GMT 2019
+45, BAkeoff, i cant ttt, Mon Jan 14 11:23:21 GMT 2019
+14, Bakeoff, dont know, Mon Jan 14 11:39:49 GMT 2019
+25, Bakeoff, sometimes when im sleep deprived i can actually concentrate better, Tue Jan 15 13:25:50 GMT 2019
+25, Bakeoff, napping working, Tue Jan 15 14:37:04 GMT 2019
+20, Bakeoff, pause for lunch, Tue Jan 15 14:57:51 GMT 2019
+15, Bakeoff, pipeline is off, Tue Jan 15 16:59:49 GMT 2019
+25, Bakeoff, make capital dummy and keep rururb, Tue Jan 15 18:13:30 GMT 2019
+15, bakeoff, now means, Tue Jan 15 19:47:58 GMT 2019
+15, Bakeoff, pipeline for Africa, Wed Jan 16 13:21:48 GMT 2019
+25, Bakeoff, came to coffee place, Wed Jan 16 14:20:21 GMT 2019
+45, bakeoff, still trying to generate means and define predictors, Wed Jan 16 15:05:39 GMT 2019
+45, Bakeoff, some progess is being made, Wed Jan 16 15:50:54 GMT 2019
+45, bakeoff, ok i suck at the timer, at coffee place from 1ppm to 6pm at least, Wed Jan 16 17:45:57 GMT 2019
+35, Bakeoff, so sleepy, Thu Jan 17 18:46:56 GMT 2019
+25, Bakeoff, making table with labels, Fri Jan 18 06:05:59 GMT 2019
+25, Bakeoff, making table with var, var labels, Fri Jan 18 06:31:19 GMT 2019
+25, Bakeoff, are all work vars really missing?, Fri Jan 18 06:56:53 GMT 2019
+25, Bakeoff, "turns out there was an issue merging in extra educ vars which was in turn affecting work vars", Fri Jan 18 07:31:26 GMT 2019
+25, Bakeoff, choose educ5 when possible, marital5,, Fri Jan 18 08:00:55 GMT 2019
+25, Bakeoff, trying to figure out which work variables we have, Fri Jan 18 08:26:12 GMT 2019
+25, Bkaeoff, average missingess ofvariablesin l datasets, Fri Jan 18 08:54:00 GMT 2019
+25, Bkeoff, berlghhghg, Fri Jan 18 09:44:21 GMT 2019
+45, Bakeoff, soooo boring but shooting to do simple pipeline from beginning to end, Sat Jan 19 14:19:52 GMT 2019
+45, Bakeoff, what a fucking mess, Sat Jan 19 15:05:07 GMT 2019
+45, Bakeoff, making some progress with simple pipeline file, 3 algos, 3 datasets, 1 metric, Sat Jan 19 15:50:41 GMT 2019
+45, bakeoff, adding variable importance, Sat Jan 19 16:39:15 GMT 2019
+45, Bakeoff, "trying to figure out permutation variable importance", Sat Jan 19 17:25:01 GMT 2019
+45, Bakeoff, permutaion var importance, Sat Jan 19 18:15:15 GMT 2019
+45, Bakeoff, successful day, full pipeline up to var importance measures, will need to aggregate, Sat Jan 19 19:00:46 GMT 2019
+25, Bakeoff, updating documentation, Sun Jan 20 13:28:23 GMT 2019
+45, Bakeoff, fleshing out documentation with what I have so far, Sun Jan 20 14:13:45 GMT 2019
+45, Bakeoff, adding results to documentation, Sun Jan 20 14:59:05 GMT 2019
+45, Bakeoff, man this is looking pretty legit, Sun Jan 20 15:44:55 GMT 2019
+43, Bakeoff, we live to code another day, Sun Jan 20 16:28:33 GMT 2019
+25, Bakeoff, var exploration, Mon Jan 21 16:12:03 GMT 2019
+25, Bakeoff, trying to understand which work vars to leave in, Mon Jan 21 16:59:23 GMT 2019
+25, Bakeoff, forgot timer, just do from 3 to 6, Mon Jan 21 17:24:59 GMT 2019
+25, Bakeoff, not clear things like sector depend on status, Mon Jan 21 17:52:18 GMT 2019
+25, bakeoff, work vars, Mon Jan 21 20:23:11 GMT 2019
