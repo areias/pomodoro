@@ -445,3 +445,44 @@
 25, Bakeoff, forgot timer, just do from 3 to 6, Mon Jan 21 17:24:59 GMT 2019
 25, Bakeoff, not clear things like sector depend on status, Mon Jan 21 17:52:18 GMT 2019
 25, bakeoff, work vars, Mon Jan 21 20:23:11 GMT 2019
+25, Bakoeff, simplofy this work vars thing, Tue Jan 22 13:20:57 GMT 2019
+25, Bakeoff, blergh, Tue Jan 22 17:23:43 GMT 2019
+25, Bakeoff, ok today we finish these freaking work vars, Tue Jan 22 17:52:22 GMT 2019
+25, Bakeoff, "ok the goal is to discard variables where missing is more than 10% or until we have 90% complete cases and add missing flag when necessary", Thu Jan 24 12:23:57 GMT 2019
+25, Bakeoff, just double checking merging code with handful random files, Thu Jan 24 12:49:28 GMT 2019
+25, Bakeoff, yep, Thu Jan 24 14:23:56 GMT 2019
+25, Bakeoff, ok added code to stop if data being merged is much smaller than poverty dataset, Thu Jan 24 14:49:52 GMT 2019
+25, Bakeoff, cleaned 3 datasets, now visualizing their vars, Thu Jan 24 15:17:33 GMT 2019
+25, BKEOFF, still working on cleaning and grpahing code for three files, Thu Jan 24 16:21:56 GMT 2019
+25, Bakeoff, graphing means by group, Thu Jan 24 16:47:17 GMT 2019
+25, Bakeoff, ok now go through each group of vars and plot, Thu Jan 24 17:50:38 GMT 2019
+25, Bakeoff, well some variables are missing factor labels, Thu Jan 24 18:35:25 GMT 2019
+25, Bakeoff, i guess its not strictly necessary to make all levels across datasets the same, so leave that for now, Thu Jan 24 19:16:12 GMT 2019
+25, Bakoeff, looknig at summary stats by var, Fri Jan 25 16:41:17 GMT 2019
+25, Bakeoff, this feels a little useless but surely i need to have some sort of idea of what the data looks like?, Fri Jan 25 17:08:53 GMT 2019
+25, Bakeoff, just thinking of milanesas, Fri Jan 25 17:40:45 GMT 2019
+25, bakeoff, blehgh, Fri Jan 25 18:34:48 GMT 2019
+25, [A[A[A[ABakoeff, trying to add all datasets to pipeline, Sat Jan 26 13:23:04 GMT 2019
+25, bakeoff, slowly but surely, Sat Jan 26 13:49:56 GMT 2019
+25, bakeoff, man this timer is too small, Sat Jan 26 14:50:36 GMT 2019
+45, bakeoff, makesureallfactorsarefactors, Sat Jan 26 15:49:09 GMT 2019
+25, bakeoff, several factors thatare not factors, Sat Jan 26 18:25:41 GMT 2019
+25, bakeoff, aff never ends but so close dude, Sun Jan 27 09:01:42 GMT 2019
+25, Bakeoff, close, Sun Jan 27 12:37:09 GMT 2019
+45, Bakeoff, making good headway!, Sun Jan 27 13:22:43 GMT 2019
+45, bakeoff, getting there, Sun Jan 27 14:10:35 GMT 2019
+45, bakeoff, i think done with cleaning vars, Sun Jan 27 15:34:00 GMT 2019
+25, Bakeoff, want to send email with vars available, plan to run both constant porverty rate and poverty line, use both MCC and ask how does one optimise taregting metrics?, Mon Jan 28 11:06:54 GMT 2019
+15, Visas, looking at new zealand visa, dont need one if 3 months or less, but need one if longer, Mon Jan 28 11:22:37 GMT 2019
+25, Bakeoff, dont be precious , focus on getting modeling code ready, sending email with update, Mon Jan 28 11:48:21 GMT 2019
+15, Visas, goal is to submit portugeuse residency visa in rio de janei, Mon Jan 28 12:12:58 GMT 2019
+25, Bakoff, whyyyy is lm recipe failing on step corr arghhh, Mon Jan 28 12:40:58 GMT 2019
+15, Bakeoff, industry is being problematic must have emtpy levels, Mon Jan 28 12:56:29 GMT 2019
+25, Bakeoff, "so discovered about dropping unused levels from factors, can optimize for MCC, what is a targeting appropriate measure to optimize on?", Mon Jan 28 13:25:52 GMT 2019
+25, Bakeoff, three datasets, three models, server, results and var imp, poverty line and poverty rate, mcc, Mon Jan 28 13:58:35 GMT 2019
+25, Bakeoff, how to have constant rate as well as constant line results without having to run everything twice, Mon Jan 28 14:51:43 GMT 2019
+25, Bakeoff, adding poverty rate to simulation results, Mon Jan 28 15:25:56 GMT 2019
+25, Bakeoff, getting same results for poverty line and poverty rate approaches ,why?, Mon Jan 28 15:51:22 GMT 2019
+25, Bakeoff, ok need to set 10% rate and rank both observations and predicted values, Mon Jan 28 16:18:53 GMT 2019
+25, Bakeoff, actually looks like addint constant rate to simulation worked!, Mon Jan 28 16:45:46 GMT 2019
+25, Bakeoff, next step is run this on server and figure out how fixed rate andfixed povverty line differ, Mon Jan 28 17:18:37 GMT 2019
