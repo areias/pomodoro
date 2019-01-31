@@ -486,3 +486,9 @@
 25, Bakeoff, ok need to set 10% rate and rank both observations and predicted values, Mon Jan 28 16:18:53 GMT 2019
 25, Bakeoff, actually looks like addint constant rate to simulation worked!, Mon Jan 28 16:45:46 GMT 2019
 25, Bakeoff, next step is run this on server and figure out how fixed rate andfixed povverty line differ, Mon Jan 28 17:18:37 GMT 2019
+25, Bakeoff, "goal is to run on server experiment that can be built upon", Tue Jan 29 15:14:31 GMT 2019
+25, Bakeoff, trying to think through how im going to analyse these results considering there are four cases here constant rate, line, MCC and F2, Tue Jan 29 15:41:08 GMT 2019
+25, Bakeoff, as usual losing track of timer, Tue Jan 29 16:09:52 GMT 2019
+45, shit, pomo 45, Tue Jan 29 17:00:06 GMT 2019
+45, Bakeoff, "running things in server, made mistake of adding packages thataren't strictly necessary to packages.R now taking forever", Wed Jan 30 11:50:10 GMT 2019
+25, Bakeoff, "but actually worked all day?  turns out code wasnt working because new version of recipes changed add_role to update_role", Wed Jan 30 11:50:10 GMT 2019
