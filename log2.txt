@@ -492,3 +492,8 @@
 45, shit, pomo 45, Tue Jan 29 17:00:06 GMT 2019
 45, Bakeoff, "running things in server, made mistake of adding packages thataren't strictly necessary to packages.R now taking forever", Wed Jan 30 11:50:10 GMT 2019
 25, Bakeoff, "but actually worked all day?  turns out code wasnt working because new version of recipes changed add_role to update_role", Wed Jan 30 11:50:10 GMT 2019
+45, Bakeoff, running on server and making it so i can add iterations rather than redo, Thu Jan 31 13:14:59 GMT 2019
+45, Bakeoff, 3 models 3 datasets runing on server, Thu Jan 31 14:49:36 GMT 2019
+45, Bakeoff, what a mess, the var importance code, Thu Jan 31 16:05:54 GMT 2019
+480, Bakeoff, variable importance code, Fri Feb 01 16:05:54 GMT 2019
+320, Bakeoff, variable importance for first iterations, Sat Feb 02 16:05:54 GMT 2019
