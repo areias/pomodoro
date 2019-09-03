@@ -498,3 +498,59 @@
 480, Bakeoff, variable importance code, Fri Feb 01 16:05:54 GMT 2019
 320, Bakeoff, variable importance for first iterations, Sat Feb 02 16:05:54 GMT 2019
 360, Bakeoff, update email and african data summary preliminary results, Mon Feb 04 00:00:00 GMT 2019
+25, Portfolio, creating index.html, Mon Mar  4 11:45:08 GMT 2019
+15, Portfolio, adding to index.html, Mon Mar  4 12:03:04 GMT 2019
+60, Bakeoff, Dataset characteristics and peformance analysis, Mon Mar 11 09:22:04 -03 2019
+35, Bakeoff, wrapping up preliminary note on dataset chars and performance, Mon Mar 11 10:03:00 -03 2019
+33, Bakeoff, sent dataset chars and perforamnce email, Mon Mar 11 10:37:08 -03 2019
+30, Liberia, final PMT tool, Mon Mar 11 12:15:35 -03 2019
+60, Liberia, final pmt tool and report, Mon Mar 11 15:10:52 -03 2019
+60, Liberia, arghhg, Mon Mar 11 17:15:44 -03 2019
+15, Liberia, sending QRF and QR urban to server, Tue Mar 12 07:04:13 -03 2019
+15, Liberia, sending QRF and QR urban to server, Tue Mar 12 07:19:41 -03 2019
+15, Bakeoff, "id 3 datasets with high, mid and low MCC and look them over manually to see what could explain their differences", Tue Mar 12 07:35:20 -03 2019
+15, Bakeoff, maybe try some clustering for clues, Tue Mar 12 07:50:48 -03 2019
+15, Bakeoff, joined MCC and chars dataset, scaling and trying clustering, Tue Mar 12 08:06:25 -03 2019
+15, Bakeoff, slowly getting there, Tue Mar 12 08:21:41 -03 2019
+35, Bakeoff, getting different results from rpart package and caret rpart, Tue Mar 12 08:57:05 -03 2019
+35, Bakeoff, hierchical clustering doesnt look right, Tue Mar 12 10:24:12 -03 2019
+15, Bakeoff, still puzzling out tree for mcc explaining, Tue Mar 12 10:42:54 -03 2019
+6, Bakeoff, restart for wifi, Tue Mar 12 10:49:15 -03 2019
+25, Bakeoff, trying out heatmap of dataset and characteristics, Tue Mar 12 11:16:32 -03 2019
+15, Bakeoff, heatmap of dataset chars, Tue Mar 12 11:31:47 -03 2019
+25, Bakeoff, "hierarchical clustering independent of heatmap looks interesting", Tue Mar 12 11:57:34 -03 2019
+25, Bakeoff, have clusters, how to interpret?, Tue Mar 12 12:25:15 -03 2019
+20, Bakeoff, using rpart to understand clusters, Tue Mar 12 12:46:25 -03 2019
+20, Bakeoff, interesting but not enough, Tue Mar 12 13:06:41 -03 2019
+20, Bakeoff, ok maybe good enough, but how to relate to MCC?, Tue Mar 12 13:39:25 -03 2019
+20, Bakeoff, exploring VarImp and MCC connection, Tue Mar 12 14:03:11 -03 2019
+20, Bakeoff, getting condused, Tue Mar 12 14:43:13 -03 2019
+15, Bakeoff, cleaning up, Tue Mar 12 14:58:26 -03 2019
+20, BAkeoff, getting somewhere, Tue Mar 12 15:18:38 -03 2019
+45, Bakeoff, cool, like my decision tree, Wed Mar 13 06:39:47 -03 2019
+25, Bakeoff, sending email with partition results, Wed Mar 13 07:31:15 -03 2019
+25, Liberia, ran QRF and QR urban on server, Wed Mar 13 11:07:46 -03 2019
+25, plotting results and choosing quantile so can run var imp routine, Liberia, Wed Mar 13 11:40:25 -03 2019
+25, LIberia, plotting ncie grpahs, Wed Mar 13 12:11:39 -03 2019
+25, LIberia, generating quantile plot but also ROC, Prec-Recall and Under-Leak, Wed Mar 13 12:47:11 -03 2019
+25, Liberia, nice plots!, Wed Mar 13 13:59:26 -03 2019
+25, Liberia, jot down quantiles and generate var imp routines, compare results tomorrow, Wed Mar 13 17:04:50 -03 2019
+25, Liberia, acckkkk, Wed Mar 13 17:58:57 -03 2019
+10, Liberia, making varImp code for QRF urban and rural, Wed Mar 13 18:24:10 -03 2019
+25, Liberia, var Imp routines, Thu Mar 14 08:27:03 -03 2019
+25, Liberia, trying same train, test, validation split as Linden to make results more comparable, Thu Mar 14 08:52:25 -03 2019
+25, Liberia, forgot timer, fix hours, Thu Mar 14 09:45:01 -03 2019
+19, Liberia, cant sign into server, Thu Mar 14 10:04:28 -03 2019
+25, Liberia, why are my quantiles sodifferent?, Thu Mar 14 15:56:05 -03 2019
+25, Liberia, looking at why my urban quantiles are so high now, Thu Mar 14 16:41:19 -03 2019
+25, LIberia, oh god its even worse now, Thu Mar 14 17:06:33 -03 2019
+25, Liberia, something is broken, Thu Mar 14 17:47:54 -03 2019
+25, Bakeoff, code to run experiement on server to finish!, Fri Mar 15 08:01:24 -03 2019
+25, Bakeoff, transferring all data files and loop code to server, Fri Mar 15 09:51:52 -03 2019
+25, Bakeoff, finishing code on server, Fri Mar 15 10:17:10 -03 2019
+25, Bakeoff, its running!!!!, Fri Mar 15 10:44:05 -03 2019
+25, Bakeoff, boo, Sat Mar 16 10:15:54 -03 2019
+25, Bakeoff, Bradley terry models and trees, Fri Mar 22 11:00:14 -03 2019
+35, Bakeoff, transform our pairwise comparison results into input for bt model, Fri Mar 22 11:35:46 -03 2019
+25, Bakeoff, from comp to paircomp, Fri Mar 22 12:01:30 -03 2019
+45, bakeoff, terry, Fri Mar 22 17:56:52 -03 2019
