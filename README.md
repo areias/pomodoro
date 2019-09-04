@@ -26,7 +26,7 @@ To be able to use `pomo` as a command shortcut, add to your .bashrc file a refer
 * run as background process 
 * package for distribution
 * provide option to select project from lists of current projects
-
+* option to save log file elsewhere 
 
 
 
