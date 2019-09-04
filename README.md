@@ -12,19 +12,22 @@ For user-specified 10 minutes duration, use:
 
 
 ## Create the alias pomo
-Add to .bashrc file a reference to script
-`$ alias pomo='bash /home/areias/Dropbox/DataScience/Pomodoro/pomodoro.sh'`
+To be able to use `pomo` as a command shortcut, add to your .bashrc file a reference to the pomodoro.sh script:
+`$ alias pomo='bash /home/user/pathto/pomodoro.sh'`
 
 
 ## Additional features to implement
-* default 25 mins
-* pop up over everything once timer is up 
-* option to pause timer
+* ~~default 25 mins~~
+* ~~pop up over everything once timer is up~~ 
+* option to pause and restart timer
 * timer count down to remaining minutes
-* option to quit mid-timer and log elapsed time with tasks
-* report option that generates total time worked per project 
+* ~~option to quit mid-timer and log elapsed time with tasks~~
+* report option that generates summary view with total time worked per project 
 * run as background process 
 * package for distribution
+* provide option to select project from lists of current projects
+
+
 
 
 
