@@ -18,7 +18,7 @@ trap 'echo " Quitting..."; sigquit' INT
 
 # check if log file already exists and if not create with headers
 check_log_exists() {
-	if [ ! -f log.csv ]; then
+	if [ ! -f "${BASH_SOURCE%/*}/log.csv" ]; then
 		# if not create headers
 		echo "time,project,description,date" > "${BASH_SOURCE%/*}/log.csv"
 	fi
@@ -44,11 +44,11 @@ log_project() {
 run_timer() {
     # user argument for t
 	t=${1:-25}
-	TIMER=$((t))
+	TIMER=$((t*60))
 
 	# set timer
 	echo "Setting pomodoro timer for $t minutes"
-	sleep $TIMER 
+	sleep $TIMER
 
 	# alert timer ended
 	xmessage -center "Time's up!"
