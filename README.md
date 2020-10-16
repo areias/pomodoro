@@ -16,16 +16,22 @@ To be able to use `pomo` as a command shortcut, add to your .bashrc file a refer
 `$ alias pomo='bash /home/user/pathto/pomodoro.sh'`
 
 
+## Options
+**-t, --timer** 			Start indefinite timer.
+**-l, --list**				List all projects.
+**-s, --show** *project*	Show entries for specific project.	
+**-w, --weekly** *project* 	Weekly summary for specific project.
+**-a, --add** 				Add manual entry to log file.
+**-h, --help**				Display usage instructions.
+
+
+
 ## Additional features to implement
 * ~~default 25 mins~~
 * ~~pop up over everything once timer is up~~ 
-* option to pause and restart timer
-* timer count down to remaining minutes
+* ~~option to pause and restart timer~~
 * ~~option to quit mid-timer and log elapsed time with tasks~~
-* report option that generates summary view with total time worked per project 
-* run as background process 
-* package for distribution
-* provide option to select project from lists of current projects
+* ~~report option that generates summary view with total time worked per project~~
 * option to save log file elsewhere 
 
 
