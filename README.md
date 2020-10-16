@@ -1,5 +1,9 @@
 # Pomodoro timer and logger
 
+
+Usage: pomo [duration] [OPTIONS]  
+
+  
 Simple shell script that sets a timer for an user-specified amount of minutes (default is 25 mins) and at the end of that period prompts the user to log which project and what tasks where acomplished to a csv log file (saved to the script's source folder).
 
 For default duration of 25 minutes, use:
@@ -16,13 +20,16 @@ To be able to use `pomo` as a command shortcut, add to your .bashrc file a refer
 `$ alias pomo='bash /home/user/pathto/pomodoro.sh'`
 
 
+
+
+
 ## Options
-**-t, --timer** 			Start indefinite timer.
-**-l, --list**				List all projects.
-**-s, --show** *project*	Show entries for specific project.	
-**-w, --weekly** *project* 	Weekly summary for specific project.
-**-a, --add** 				Add manual entry to log file.
-**-h, --help**				Display usage instructions.
+**-t, --timer** 			Start indefinite timer.  
+**-l, --list**				List all projects.  
+**-s, --show** *project*	Showgit add  entries for specific project.  	
+**-w, --weekly** *project* 	Weekly summary for specific project.  
+**-a, --add** 				Add manual entry to log file.  
+**-h, --help**				Display usage instructions.  
 
 
 
