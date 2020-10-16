@@ -80,51 +80,77 @@ add_entry() {
 help(){
 
 	__usage="
-	Usage: $(basename $0) [duration] [OPTIONS]
 
-	Runs pomodoro timer with default duration of 25 mins. 
+	\033[1mPomodoro timer and logger\033[0m
 
-	For a user-specified duration  
+	Usage: pomo [duration] [OPTIONS]
 
-	To create the alias pomo add this to your .bashrc file:
-		alias pomo='bash /home/user/pathto/pomodoro.sh'
+	Runs pomodoro timer with default duration of 
+	25 mins or user-specified duration. 
+
+	At conclusion of timer prompts user to log which
+	project and what tasks where acomplished to a csv file
+	saved to the script's source folder.
+
+	ctrl+c before the timer is up will quit the timer 
+	and prompt you to log your task with the elapsed time.
+
+	To create the alias \033[1mpomo\033[0m add this to your .bashrc file:
+	alias pomo='bash /home/user/pathto/pomodoro.sh'
 
 	Options:
-		-t, --timer 	Start indefinite timer.
-		-l, --list 	List all project titles.
-		-s, --show 	Show entries for specific project.	
-		-a, --add 	Add manual entry to log file.
-		-h, --help	Display usage instructions.
+	\033[1m-t, --timer\033[0m 		Start indefinite timer.
+	\033[1m-l, --list\033[0m 		List all projects.
+	\033[1m-s, --show\033[0m \033[3mproject\033[0m	Show entries for specific project.	
+	\033[1m-w, --weekly\033[0m \033[3mproject\033[0m	Weekly summary for specific project.
+	\033[1m-a, --add\033[0m 		Add manual entry to log file.
+	\033[1m-h, --help\033[0m		Display usage instructions.
 	"
-	echo "$__usage"
+	echo -e "$__usage"
 
 }
 
 
-run_timer() {
-    # user argument for t
 
-    if [ "$1" = "start" ]
-  	then
-    	echo "Started pomo timer at $(date +%T)"
-    	sleep infinity
-    elif [ "$1" = "list" ]
-   	then
-   		echo "current projects"
-   		cut -f2 "${BASH_SOURCE%/*}/log.csv" | sort | uniq #awk '{print tolower($0)}'
-	elif [ "$1" = "show" ]
-	then
-		awk -v val=$2 '$2~ val {print}' "${BASH_SOURCE%/*}/log.csv"
-	elif [ "$1" = "add" ]
-	then
-		add_entry
+list_projects(){
+	echo "current projects"
+	awk 'NR>1{a[$2];}END{for (i in a)print i | "sort";}' "${BASH_SOURCE%/*}/log.csv"
+}
 
-	elif [ "$1" = "help" ]
-	then
-		help
 
+show_entries(){
+	if [ ! -n "$1" ]
+	then
+		echo "must specify proect!"
 	else
-    	t=${1:-25}
+		echo "entries for $1"
+		awk -F"\t" -v val="$1" '$2~ val {print $4", "$1", "$3}' "${BASH_SOURCE%/*}/log.csv"
+	fi	
+}
+
+
+weekly_summary(){
+	if [ ! -n "$1" ]
+	then
+		echo "must specify proect!"
+	else
+		echo "total weekly hours for project $1"
+		awk -F"\t" -v inp=$1 '$2==inp{a[$7]+=$1;}END{for(i in a)print "week "i", "a[i]" mins" | "sort" ;}' "${BASH_SOURCE%/*}/log.csv"
+	fi
+}
+
+
+
+
+run_timer(){
+
+	# allow empty or numbers
+	re='^[0-9]+$|^$'
+	if ! [[ $1 =~ $re ]]
+	then
+   		echo "error: not a valid duration. see pomo --help" >&2; exit 1
+   	else
+		t=${1:-25}
 		TIMER=$((t*60))
 
 		# set timer
@@ -138,9 +164,36 @@ run_timer() {
 		
 		log_project
 	fi
+}
+
+
+main() {
+
+	case $1 in
+		-t|--timer)
+	    	echo "Started pomo timer at $(date +%T)"
+	    	sleep infinity;;
+
+    	-l|--list)
+			list_projects;;
+
+		-s|--show)
+			show_entries $2;;
+
+		-a|--add)
+			add_entry;;
+
+		-w|--weekly)
+			weekly_summary $2;;
+
+		-h|--help)
+			help;;
+		*)
+    		run_timer $1;
+	esac
 	}
 
 #run
-run_timer $1 $2
+main $1 $2
 
 
