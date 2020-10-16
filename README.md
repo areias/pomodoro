@@ -20,14 +20,11 @@ To be able to use `pomo` as a command shortcut, add to your .bashrc file a refer
 `$ alias pomo='bash /home/user/pathto/pomodoro.sh'`
 
 
-
-
-
 ## Options
-**-t, --timer** 			Start indefinite timer.  
+**-t, --timer** 	\t		Start indefinite timer.  
 **-l, --list**				List all projects.  
-**-s, --show** *project*	Showgit add  entries for specific project.  	
-**-w, --weekly** *project* 	Weekly summary for specific project.  
+**-s, --show** *project*	Show entries for specific project.    	
+**-w, --weekly** *project* 	Weekly summary for specific project.    
 **-a, --add** 				Add manual entry to log file.  
 **-h, --help**				Display usage instructions.  
 
